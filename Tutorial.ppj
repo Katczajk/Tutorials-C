@@ -59,7 +59,8 @@ Tutorial.exe: \
 # 
 output\start.obj: \
 	start.c \
-	funct.h
+	funct.h \
+	start.h
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
 # 
