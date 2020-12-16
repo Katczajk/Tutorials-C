@@ -3,9 +3,8 @@
 
 
 
-int main() {
+int main(int argc, char *argv[]) {
 
-	int a = 1;
 	int anzahl = 50;
 	output(&anzahl);
 

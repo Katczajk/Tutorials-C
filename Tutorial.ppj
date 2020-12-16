@@ -50,8 +50,8 @@ POC_PROJECT_ZIPEXTRA = #
 # Erzeuge Tutorial.exe.
 # 
 Tutorial.exe: \
-	output\start.obj \
-	output\funct.obj
+	output\funct.obj \
+	output\start.obj
 	$(LINK) $(LINKFLAGS) -out:"$@" $**
 
 # 
