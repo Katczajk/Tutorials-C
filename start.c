@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <strings.h>
+#include <stdlib.h>
 
 #include "start.h"
 #include "funct.h"
@@ -20,6 +21,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("%d %d %d \n", *ptr, *(ptr+1),*(ptr+2));
 
+    system("pause");
 	return 0;
 
 }
