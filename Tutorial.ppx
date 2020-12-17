@@ -2,10 +2,10 @@
 <settings version="1.0">
 	<category name="start.c">
 		<category name="Window">
-			<property name="Left" type="integer">-8</property>
-			<property name="Top" type="integer">-31</property>
-			<property name="Right" type="integer">1670</property>
-			<property name="Bottom" type="integer">722</property>
+			<property name="Left" type="integer">4294967288</property>
+			<property name="Top" type="integer">4294967265</property>
+			<property name="Right" type="integer">1048</property>
+			<property name="Bottom" type="integer">473</property>
 			<property name="Maximized" type="integer">1</property>
 			<property name="Active" type="integer">1</property>
 		</category>
@@ -14,8 +14,8 @@
 		<category name="Window">
 			<property name="Left" type="integer">52</property>
 			<property name="Top" type="integer">52</property>
-			<property name="Right" type="integer">1492</property>
-			<property name="Bottom" type="integer">587</property>
+			<property name="Right" type="integer">1076</property>
+			<property name="Bottom" type="integer">400</property>
 			<property name="Maximized" type="integer">0</property>
 			<property name="Active" type="integer">0</property>
 		</category>
@@ -24,8 +24,8 @@
 		<category name="Window">
 			<property name="Left" type="integer">78</property>
 			<property name="Top" type="integer">78</property>
-			<property name="Right" type="integer">1518</property>
-			<property name="Bottom" type="integer">613</property>
+			<property name="Right" type="integer">1102</property>
+			<property name="Bottom" type="integer">426</property>
 			<property name="Maximized" type="integer">0</property>
 			<property name="Active" type="integer">0</property>
 		</category>
@@ -34,8 +34,8 @@
 		<category name="Window">
 			<property name="Left" type="integer">104</property>
 			<property name="Top" type="integer">104</property>
-			<property name="Right" type="integer">1544</property>
-			<property name="Bottom" type="integer">639</property>
+			<property name="Right" type="integer">1128</property>
+			<property name="Bottom" type="integer">452</property>
 			<property name="Maximized" type="integer">0</property>
 			<property name="Active" type="integer">0</property>
 		</category>
