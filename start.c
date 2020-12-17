@@ -1,10 +1,6 @@
 #include <stdio.h>
-<<<<<<< HEAD
 #include <string.h>
-=======
-#include <strings.h>
 #include <stdlib.h>
->>>>>>> 150ad5e7801431733ee0525cd25d533256df0cfb
 
 #include "start.h"
 #include "funct.h"
