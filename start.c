@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 
 #include "start.h"
 #include "funct.h"
 
 int main(int argc, char *argv[]) {
 
-	int a[3] = {42,1337,50}; /* array int 3 vars */
-	int *ptr = a; /* Pointer to var a */
-
-	int anzahl = 50;
-	output(&anzahl);
-
-	int zahl1 = FUENF;
-	int zahl2 = FUENF;
-	int ergebnis = 0;
-	ergebnis = berechnen(&zahl1,&zahl2,&ergebnis);
-	ausgabe(&zahl1,&zahl2,&ergebnis);
+	const char myString[] = { 'H','i','\0' };
+	const char myString2[] = "Hi";
+	char ergebnis[sizeof(myString2)];
 	
-	printf("%d %d %d \n", *ptr, *(ptr+1),*(ptr+2));
+	strcpy(ergebnis, myString2);
+
+	int len = sizeof(myString);
+
+	printf("String Len is %i\n", len);
+
+	printf("String mit Array	 	-> %s\n", myString);
+	printf("String mit \"\" geschrieben 	-> %s\n", myString2);
+	printf("String Ergebnis mit Strcpy 	-> %s\n", ergebnis);
 
 	return 0;
 
