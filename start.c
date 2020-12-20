@@ -11,6 +11,12 @@
 		char autor[50];
 	} video;
 
+	
+
+int ausgabe(int *eingabe){
+	return *eingabe;
+	}
+
 int main(int argc, char *argv[]) {
 
 	char autor[13] = "John Connery";
@@ -39,6 +45,11 @@ int main(int argc, char *argv[]) {
 	char String[strlen(input)]; /* setup length from input */
 	strcpy(String,input); /* copy string input to String */
 	printf("Ausgabe %s plain String\n",String); /* output content to console */
+
+	int zahl = 1;
+	int erg = 0;
+	erg = ausgabe(&zahl);
+	printf("Zahl: %i \n", erg);
 
 	system("pause");
 
