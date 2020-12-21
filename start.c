@@ -5,6 +5,7 @@
 #include "start.h"
 #include "funct.h"
 
+
 	struct Videos
 	{
 		int laenge;
@@ -50,7 +51,7 @@ int main(int argc, char *argv[]) {
 	int erg = 0;
 	erg = ausgabe(&zahl);
 	printf("Zahl: %i \n", erg);
-
+	
 	system("pause");
 
 	return 0;
